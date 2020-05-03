@@ -126,12 +126,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     gralloc.gbm.device=/dev/dri/card0 \
 
 # Gatekeeper HAL
-PRODUCT_PROPERTY_OVERRIDES += ro.hardware.gatekeeper=ranchu
-
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service \
-    gatekeeper.ranchu \
+    android.hardware.gatekeeper@1.0-service.software \
 
 # Keymaster HAL
 PRODUCT_PACKAGES += \
