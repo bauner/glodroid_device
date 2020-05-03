@@ -122,3 +122,6 @@ DEVICE_MATRIX_FILE := device/glodroid/common/compatibility_matrix.xml
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR   += device/glodroid/common/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR  += device/glodroid/common/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS       += device/glodroid/common/sepolicy/vendor
+
+# Required to build mesa starting from R
+BUILD_BROKEN_USES_BUILD_HOST_STATIC_LIBRARY := true
