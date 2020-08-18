@@ -1,0 +1,6 @@
+[all]
+enable_uart=1
+arm_64bit=1
+kernel=u-boot.bin
+dtoverlay=dwc2
+dtoverlay=vc4-kms-v3d
